@@ -483,6 +483,10 @@ select{
     border-radius: 16px;
     margin: 100px 135px;
 }
+.button-div{
+    display: flex;
+    justify-content: center;
+}
 
 /* footer section styles */
 .footer-section{
