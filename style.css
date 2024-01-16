@@ -187,6 +187,9 @@ select{
 /* destination section */
 .destination-title{
     text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .destination-title-description{
@@ -239,7 +242,66 @@ select{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-
+/* optional section work */
+.optional-section-img{
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: url('Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
+    margin: 50px 135px;
+}
+.section-for-work-1, .section-for-work-3{
+    width: 579px;
+    /* height: 389px; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    margin: 50px 50px 50px 530px;
+}
+.section-for-work-2{
+    width: 579px;
+    /* height: 389px; */
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+    margin: 50px 530px 50px 50px;
+}
+.time img {
+    margin-right: 5px; 
+}
+.color-text{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section for place */
+.place{
+    display: flex;
+}
+.place-image{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('Images/Rectangle\ 10.png') no-repeat;
+    background-size: cover;
+}
+.background{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 176px 167px;
+}
 
 
 
