@@ -206,6 +206,124 @@ select{
     line-height: 26px;
     text-align: center;
 }
+.maldives{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+/* #images-1{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+#images-2{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 573px;
+    height: 300px;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+} */
+#images-1{
+    width: 572px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+#images-2{
+    width: 572px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.kashmir{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+}
+.class-1{
+    width: 374px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.class-2{
+    width: 474px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.class-3{
+    width: 274px;
+    height: 286px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bd-1{
+    width: 473px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bd-2{
+    width: 673px;
+    height: 300px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 /* image section styles */
 .destination-img{
     margin: 50px 135px;
@@ -385,7 +503,34 @@ select{
     margin: 100px 135px;
 }
 
-
+/* footer section styles */
+.footer-section{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section .nav-section{
+    justify-content: center;
+}
+.footer-description-section{
+    display: flex;
+    justify-content: center;
+}
+.footer-description{
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-section-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* for mobile responsive */
